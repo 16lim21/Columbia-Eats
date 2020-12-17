@@ -26,6 +26,8 @@
     align-items: center;
     cursor: pointer;
     height: 100%;
+    text-decoration: none;
+    color: black
 }
 
 .navbar a:hover{
