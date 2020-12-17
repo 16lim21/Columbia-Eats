@@ -27,6 +27,11 @@
     font-size: 20px;
 }
 
+.subtitle{
+    font-weight: 500;
+    font-size: 20px
+}
+
 .separator{
     background-color: #1D497D;
     height: 2px;
@@ -39,4 +44,68 @@
     font-weight: 300;
     justify-content: space-between;
     margin: 5px 0 0;
+    font-size: 20px;
+}
+
+.history{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.history input{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+.transactions{
+    display: none;
+    animation: slide 0.5s forwards;
+    transition: 1s;
+}
+
+.history input:checked ~ .transactions{
+    display: block;
+}
+
+.history input:checked ~ .subtitle-row > .arrow-container{
+    transform: rotate(180deg) translateY(-3px);
+}
+
+.subtitle-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-container{
+    display: flex;
+    margin-right: 5px;
+}
+
+.arrow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    top: -3px;
+    height: 10px;
+    width: 2px;
+    background: black;
+}
+
+.arrow::before {
+    left: -3px;
+    transform: rotate(-45deg);
+}
+
+.arrow::after {
+    left: 2.75px;
+    transform: rotate(45deg);
 }
