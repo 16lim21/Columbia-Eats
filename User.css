@@ -6,11 +6,37 @@
 .content{
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    margin: 24px;
+    color: #1D497D;
+}
+
+.title-holder{
+    margin: 10px 0px 34px;
+    text-align: center;
 }
 
 .title{
-    font-size: 2em;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
     font-weight: 500;
-    color: #1D497D;
+    font-size: 20px;
+}
+
+.separator{
+    background-color: #1D497D;
+    height: 2px;
+    margin: 5px 0 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: 5px 0 0;
 }
