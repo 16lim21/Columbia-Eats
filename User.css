@@ -2,3 +2,15 @@
     position: absolute;
     right: 0
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: 500;
+    color: #1D497D;
+}

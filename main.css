@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+div {
+    font-family: "Niramit", sans-serif;
+}
+
 .navbar{
     position: absolute;
     bottom: 0;
