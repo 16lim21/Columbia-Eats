@@ -1,0 +1,40 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    background-color: #F1F1F1;
+    height: 59px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar a{
+    display: flex;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+}
+
+.navbar a:hover{
+    background-color: #1D497D;
+    color: white;
+}
+
+.navbar a.active{
+    background-color: #1D497D;
+    color: white;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.5);
+}
