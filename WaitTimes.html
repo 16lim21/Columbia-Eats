@@ -4,14 +4,115 @@
     <meta charset="utf-8">
     <title>Wait Times</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="User.css">
+    <link rel="stylesheet" href="WaitTimes.css">
     <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="icofont/icofont.min.css">
 </head>
 <body>
-    <div class="body">
-        hi
+    <div class="content">
+        <div class="options">
+            <label for="dining_halls">Choose a dining hall: </label><br>
+            <select name="dining_halls" class="hall-selector">
+                <option value="ferris">Ferris</option>
+                <option value="johnjay" disabled>John Jay</option>
+                <option value="jjs" disabled>JJs</option>
+            </select>
+        </div>
+        <div class="align-center" id="closing-soon-row">
+            <div class="icon orange-icon"><i class="ph-warning-circle"></i></div>
+            <div>
+                <div id="closing-text">Closing Soon</div>
+                <div>10 AM - 8 PM</div>
+            </div>
+        </div>
+        <div class="row-container solid-line align-center">
+            <div class="row-content align-center">
+                <div class="icon green-icon"><i class="icofont-chair"></i></div>
+                <div>Most seats available</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div class="row-container solid-line align-center">
+            <div class="row-content align-center">
+                <div class="icon green-icon"><i class="ph-hourglass-high"></i></div>
+                <div>No line</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div>
+            **INSERT GRAPH**
+        </div>
+        <div class="section-header">Pasta Line</div>
+        <div class="row-container dashed-line align-center">
+            <div class="row-content align-center">
+                <div class="icon green-icon"><i class="ph-check-circle"></i></div>
+                <div>Open</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div class="row-container align-center">
+            <div class="row-content align-center">
+                <div class="icon orange-icon"><i class="ph-hourglass-high"></i></div>
+                <div>Short line</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div class="section-header">Action Station</div>
+        <div class="row-container dashed-line align-center">
+            <div class="row-content align-center">
+                <div class="icon red-icon"><i class="ph-x-circle"></i></div>
+                <div>Closed</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div class="row-container align-center">
+            <div class="row-content align-center">
+                <div class="icon gray"><i class="ph-hourglass-high"></i></div>
+                <div class="gray">----</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div class="section-header">Hot Entrees</div>
+        <div class="row-container dashed-line align-center">
+            <div class="row-content align-center">
+                <div class="icon green-icon"><i class="ph-check-circle"></i></div>
+                <div>Open</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
+        <div class="row-container align-center">
+            <div class="row-content align-center">
+                <div class="icon red-icon"><i class="ph-hourglass-high"></i></div>
+                <div>Long line</div>
+            </div>
+            <div class="thumbs">
+                <div class="thumb-icon green-icon"><i class="ph-thumbs-up"></i></div>
+                <div class="thumb-icon red-icon"><i class="ph-thumbs-down"></i></div>
+            </div>
+        </div>
     </div>
     <div class="navbar">
         <a href=Home.html>

@@ -1,0 +1,106 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 4% 0 4%;
+    color: #1D497D;
+    height: 750px;
+    overflow-y: auto;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.options {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.hall-selector {
+    width: 100%;
+}
+
+.icon {
+    margin: 3px 6px 0 0;
+    font-size: 1.8em;
+}
+
+.thumb-icon {
+    margin: 0 12px 0 0;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.thumbs {
+    display: flex;
+    flex-direction: row;
+}
+
+#closing-soon-row {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    margin: 5px 5px 0 5px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: #1D497D;
+    border-bottom: 1px solid #1D497D;
+}
+
+#closing-text {
+    font-size: 22px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 5px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: #1D497D;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-header {
+    margin-left: 4px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.solid-line {
+    border-bottom: 1px solid #1D497D;
+}
+
+.dashed-line {
+    border-bottom: 1px dashed #1D497D;
+}
+
+.orange-icon{
+    color: orange;
+}
+
+.green-icon {
+    color: green;
+}
+
+.red-icon {
+    color: red;
+}
+
+.gray {
+    color: gray;
+}
+
