@@ -1,0 +1,83 @@
+.options {
+    display: inline-block;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    font-size: 15px;
+}
+
+.hall {
+    float: left;
+    margin-left: 0;
+    margin-top: 5px;
+    width: 70%
+}
+
+#view {
+    float: right;
+    margin-top: 5px;
+    margin-right: 0;
+}
+
+#header {
+    color: #1D497D;
+    width: 90%;
+    margin: 10px auto 5px auto;
+    text-align: center;
+}
+
+.item {
+    width: 348px;
+    margin: 5px auto 5px auto;
+    border: thick solid;
+    border-radius: 10px;
+}
+
+.item img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info {
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    display: none;
+}
+
+.item:hover .info {
+    display: block;
+    opacity: 1;
+}
+
+#katsu {
+    color: #ff802b;
+    border-color: #ff802b;
+}
+
+#katsu span {
+    top: 13%;
+    color: #ff802b;
+}
+
+#alaska {
+    color: #387ecf;
+    border-color: #387ecf
+}
+
+#alaska span {
+    top: 39.5%;
+    color: #387ecf;
+}
+
+#chilaquiles {
+    color: #cf4738;
+    border-color: #cf4738
+}
+
+#chilaquiles span {
+    top: 68%;
+    color: #cf4738;
+}

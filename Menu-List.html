@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="User.css">
+    <link rel="stylesheet" href="Menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+    <div class="body">
+        <div class="options">
+            <label for="dining_halls">Choose a dining hall: </label><br>
+            <select name="dining_halls" class="hall">
+                <option value="ferris">Ferris</option>
+                <option value="johnjay" disabled>John Jay</option>
+                <option value="jjs" disabled>JJs</option>
+            </select>
+            <select onchange="location=this.options[this.selectedIndex].value;" id="view">
+                <option value="Menu-List.html">List View</option>
+                <option value="Menu.html">Grid View</option>
+            </select>
+        </div>
+
+        <h2 id="header">Here's what you'll find at Ferris right now:</h2>
+
+        <h1 class="item" id="katsu">Chicken Katsu</h1>
+        <h1 class="item" id="alaska">Baked Alaksa</h1>        
+        <h1 class="item"  id="chilaquiles">Chilaquiles</h1>
+    </div>
+    
+    <div class="navbar">
+        <a href=Home.html>
+            <i class="ph-house"></i>
+        </a>
+        <a href=Menu.html class="active">
+            <i class="ph-fork-knife"></i>
+        </a>
+        <a href=WaitTimes.html>
+            <i class="ph-clock"></i>
+        </a>
+        <a href=User.html>
+            <i class="ph-user"></i>
+        </a>
+    </div>
+</body>
+</html>
